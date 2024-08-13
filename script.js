@@ -29,17 +29,6 @@ function showSuggestions(results, inputVal) {
 		suggestions.appendChild(suggestion);
 	});
 }
-// function showSuggestions(results, inputVal) {
-//     suggestions.innerText = "";
-//     results.forEach(result => {
-//         const suggestion = document.createElement("li");
-//         const matchStart = result.toLowerCase().indexOf(inputVal.toLowerCase());
-//         const matchEnd = matchStart + inputVal.length;
-//         suggestion.innerHTML = `${result.substring(0, matchStart)}<span class="highlight">${result.substring(matchStart, matchEnd)}</span>${result.substring(matchEnd)}`;
-//         suggestions.appendChild(suggestion);
-//     });
-// }
-
 
 function useSuggestion(e) {
 	// TODO if user clicks on suggestion, it becomes current input uses suggestions event listener to find which is clicked 
