@@ -33,9 +33,10 @@ body {
 }
 
 
-input {
+.highlight {
  /* TODO */
- text-emphasis: big;
+ font-weight: bold;
+ color: black;
  
 }
 
