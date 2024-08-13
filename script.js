@@ -53,3 +53,21 @@ function useSuggestion(e) {
 
 input.addEventListener('keyup', searchHandler); // key is pressed
 suggestions.addEventListener('click', useSuggestion); // when user selects the input from ul list
+
+
+
+
+
+//Suggestions
+//To improve the user experience, you could highlight the portion of the text in each suggestion that matches the user's input. 
+//This can be done by wrapping the matching part in a <span> with a different style.
+//	function showSuggestions(results, inputVal) {
+ //   suggestions.innerText = "";
+ //   results.forEach(result => {
+//        const suggestion = document.createElement("li");
+ //       const matchStart = result.toLowerCase().indexOf(inputVal.toLowerCase());
+ //       const matchEnd = matchStart + inputVal.length;
+ //       suggestion.innerHTML = `${result.substring(0, matchStart)}<span class="highlight">${result.substring(matchStart, matchEnd)}</span>${result.substring(matchEnd)}`;
+//        suggestions.appendChild(suggestion);
+//    });
+// }
